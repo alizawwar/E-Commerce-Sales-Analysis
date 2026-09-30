@@ -4,9 +4,15 @@ Everything that is environment specific lives here: database credentials, the
 visual design system, and page metadata.
 
 SECURITY
-    Credentials are read from environment variables, optionally seeded from a
-    local ``.env`` file. No password is stored in this repository. ``.env`` is
-    listed in ``.gitignore``.
+    Credentials are read from Streamlit's secret store when one is available -
+    that is how a hosted deployment (Streamlit Community Cloud and friends)
+    supplies them - and otherwise from environment variables, optionally seeded
+    from a local ``.env`` file. No password is stored in this repository.
+    ``.env`` and ``.streamlit/secrets.toml`` are both listed in ``.gitignore``.
+
+    Secrets are consulted *first* so a hosted app is configured the way its
+    platform expects. Locally there is no secret store, the lookup resolves to
+    "absent", and the ``.env`` / environment path behaves exactly as before.
 
 METRIC DEFINITIONS
     The definitions in ``METRIC_DEFINITIONS`` are the same ones used in Phase 3
@@ -22,8 +28,10 @@ METRIC DEFINITIONS
 from __future__ import annotations
 
 import os
+from collections.abc import Mapping
 from dataclasses import dataclass
 from pathlib import Path
+from typing import Any
 
 from dotenv import load_dotenv
 
@@ -34,8 +42,14 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SQL_DIR = PROJECT_ROOT / "sql"
 
 # A local .env is a convenience for running on your own machine. It is never
-# committed (see .gitignore).
+# committed (see .gitignore). Values already present in the real environment
+# win over it, and a hosted app has no .env at all - it uses st.secrets.
 load_dotenv(PROJECT_ROOT / ".env")
+
+# Sentinel distinguishing "secrets not looked up yet" from "there is no secret
+# store", so the lookup happens once and its absence is remembered too.
+_UNSET = object()
+_SECRETS: Any = _UNSET
 
 
 class ConfigError(RuntimeError):
@@ -63,12 +77,64 @@ class DatabaseConfig:
         return f"{self.user}@{self.host}:{self.port}/{self.name}"
 
 
+def _streamlit_secrets() -> Mapping[str, Any] | None:
+    """Return Streamlit's secret store, or ``None`` when there isn't one.
+
+    ``st.secrets`` *raises* rather than returning an empty mapping when no
+    secrets file exists, which is the normal case for local development and for
+    the offline test scripts. It is also only meaningful inside a Streamlit
+    runtime, so the import is local and every failure mode collapses to
+    ``None``.
+
+    The result is cached because :func:`load_db_config` runs on every query and
+    building the lookup each time would re-raise on every call. The cache is
+    deliberately a single ``None``/mapping result rather than a per-key one, so
+    a key that is absent from the store is re-checked against the environment
+    instead of being remembered as missing.
+    """
+    global _SECRETS
+    if _SECRETS is not _UNSET:
+        return _SECRETS
+    try:
+        import streamlit as st  # local import: keeps this module importable
+                                   # without Streamlit (e.g. the SQL scripts)
+        _SECRETS = st.secrets
+    except Exception:  # noqa: BLE001 - any failure means "no secret store"
+        _SECRETS = None
+    return _SECRETS
+
+
+def _from_secrets(key: str) -> str | None:
+    """Read one key from Streamlit's secret store, or ``None`` if not there."""
+    secrets = _streamlit_secrets()
+    if secrets is None:
+        return None
+    try:
+        value = secrets[key]
+    except Exception:  # noqa: BLE001 - missing key, or no secrets configured
+        return None
+    if value is None:
+        return None
+    text = str(value).strip()
+    return text or None
+
+
 def _env(key: str, default: str | None = None) -> str:
+    """Resolve one setting, preferring Streamlit secrets over the environment.
+
+    Order: ``st.secrets`` -> ``os.environ``. Both are the same five names, so a
+    value set in either place is used without further configuration.
+    """
+    secret = _from_secrets(key)
+    if secret is not None:
+        return secret
+
     value = os.getenv(key, default)
     if value is None or not str(value).strip():
         raise ConfigError(
-            f"Missing required environment variable '{key}'. "
-            f"Copy .env.example to .env and fill it in."
+            f"Missing required database setting '{key}'. Set it as a Streamlit "
+            "secret (Settings -> Secrets) when the app is hosted, or copy "
+            ".env.example to .env and fill it in when running locally."
         )
     return str(value).strip()
 
