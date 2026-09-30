@@ -1,0 +1,37 @@
+# ---------------------------------------------------------------------------
+# Streamlit configuration for the E-Commerce Sales Analytics dashboard.
+#
+# The appearance is pinned here rather than left to Streamlit's defaults so the
+# dashboard looks the same on every machine and in every screenshot. The hex
+# values match the tokens in dashboard/config.py (SURFACE / PALETTE), which is
+# what keeps the HTML cards and the Plotly figures in the same visual language.
+#
+# Streamlit 1.64 resolves its theme through generated emotion classes and
+# exposes no theme CSS variables, so the appearance has to be set here and
+# mirrored by hand in config.py. Changing one without the other is the one way
+# this dashboard can end up half-themed.
+#
+# This file contains no credentials. Anything secret belongs in .env (see
+# .env.example), which is git-ignored.
+# ---------------------------------------------------------------------------
+
+[theme]
+base = "dark"
+primaryColor = "#8B7CFF"          # violet accent
+backgroundColor = "#0B0A1A"       # canvas
+secondaryBackgroundColor = "#15132B" # cards, widgets
+textColor = "#F4F2FF"             # headings and values
+
+[server]
+# "auto" picks up edits without a manual restart while developing.
+fileWatcherType = "auto"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+# false keeps Streamlit's own red exception box from ever printing a stack
+# trace into the page. main() catches what it can, prints one plain sentence
+# for the rest, and writes the traceback to dashboard/dashboard.log.
+showErrorDetails = false

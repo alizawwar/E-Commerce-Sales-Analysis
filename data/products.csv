@@ -1,0 +1,301 @@
+product_id,product_name,category,subcategory,brand,price,cost,stock_quantity
+PROD-0001,Bose Soundbar,Electronics,Audio,Bose,54000.0,28100.0,193
+PROD-0002,Sony Party Speaker,Electronics,Audio,Sony,34300.0,21100.0,12
+PROD-0003,Samsung Bluetooth Speaker,Electronics,Audio,Samsung,10900.0,7900.0,35
+PROD-0004,Panasonic Party Speaker,Electronics,Audio,Panasonic,3350.0,2100.0,32
+PROD-0005,Sennheiser Soundbar,Electronics,Audio,Sennheiser,17300.0,11700.0,244
+PROD-0006,Sennheiser Over-Ear Headphone,Electronics,Audio,Sennheiser,17700.0,14100.0,125
+PROD-0007,LG Party Speaker,Electronics,Audio,LG,12900.0,6350.0,452
+PROD-0008,Samsung OLED TV,Electronics,Televisions,Samsung,108500.0,74500.0,13
+PROD-0009,Toshiba Smart TV,Electronics,Televisions,Toshiba,51000.0,39800.0,6
+PROD-0010,LG LED TV,Electronics,Televisions,LG,60500.0,35300.0,21
+PROD-0011,Philips Smart TV,Electronics,Televisions,Philips,187500.0,107000.0,288
+PROD-0012,Samsung QLED TV,Electronics,Televisions,Samsung,119500.0,97000.0,13
+PROD-0013,Sony LED TV,Electronics,Televisions,Sony,106500.0,62000.0,17
+PROD-0014,TCL QLED TV,Electronics,Televisions,TCL,115500.0,88500.0,22
+PROD-0015,Sony OLED TV,Electronics,Televisions,Sony,60500.0,51500.0,5
+PROD-0016,Polaroid Action Camera,Electronics,Cameras,Polaroid,13000.0,9250.0,76
+PROD-0017,Polaroid Mirrorless Camera,Electronics,Cameras,Polaroid,369500.0,200500.0,40
+PROD-0018,Nikon Camera Tripod,Electronics,Cameras,Nikon,71500.0,35900.0,135
+PROD-0019,Nikon Telephoto Lens,Electronics,Cameras,Nikon,64000.0,43400.0,29
+PROD-0020,GoPro Instant Camera,Electronics,Cameras,GoPro,139000.0,71000.0,243
+PROD-0021,Polaroid Mirrorless Camera Paperback,Electronics,Cameras,Polaroid,5550.0,2850.0,49
+PROD-0022,Canon Mirrorless Camera,Electronics,Cameras,Canon,9300.0,6900.0,10
+PROD-0023,Amazfit Fitness Band,Electronics,Wearables,Amazfit,22000.0,13200.0,406
+PROD-0024,Apple Kids Smart Watch,Electronics,Wearables,Apple,11700.0,9400.0,227
+PROD-0025,Garmin Smart Ring,Electronics,Wearables,Garmin,4250.0,2550.0,148
+PROD-0026,Noise Smart Ring,Electronics,Wearables,Noise,7100.0,4750.0,63
+PROD-0027,Samsung Smart Ring,Electronics,Wearables,Samsung,3700.0,2500.0,86
+PROD-0028,Noise Smart Watch,Electronics,Wearables,Noise,10300.0,7200.0,484
+PROD-0029,Noise Smart Watch Paperback,Electronics,Wearables,Noise,6850.0,4600.0,98
+PROD-0030,Huawei Smart Watch,Electronics,Wearables,Huawei,8750.0,5300.0,114
+PROD-0031,Dell Student Laptop,Computers,Laptops,Dell,149500.0,112000.0,0
+PROD-0032,Lenovo Convertible Laptop,Computers,Laptops,Lenovo,100000.0,70500.0,11
+PROD-0033,Apple Ultrabook,Computers,Laptops,Apple,90500.0,47600.0,90
+PROD-0034,Lenovo Convertible Laptop Paperback,Computers,Laptops,Lenovo,223000.0,100500.0,0
+PROD-0035,Microsoft Workstation Laptop,Computers,Laptops,Microsoft,114000.0,87500.0,125
+PROD-0036,Dell Gaming Laptop,Computers,Laptops,Dell,245000.0,123500.0,11
+PROD-0037,Dell Student Laptop Paperback,Computers,Laptops,Dell,108500.0,85000.0,16
+PROD-0038,HP All-in-One PC,Computers,Desktops,HP,178500.0,111000.0,167
+PROD-0039,Apple Workstation PC,Computers,Desktops,Apple,89500.0,60500.0,8
+PROD-0040,Dell Workstation PC,Computers,Desktops,Dell,63500.0,38400.0,200
+PROD-0041,Asus Office PC,Computers,Desktops,Asus,55000.0,31600.0,56
+PROD-0042,MSI All-in-One PC,Computers,Desktops,MSI,117000.0,93000.0,282
+PROD-0043,Lenovo Office PC,Computers,Desktops,Lenovo,68500.0,47800.0,124
+PROD-0044,Acer Mini PC,Computers,Desktops,Acer,140000.0,105500.0,405
+PROD-0045,Dell Office PC,Computers,Desktops,Dell,113000.0,68500.0,10
+PROD-0046,LG Gaming Monitor,Computers,Monitors,LG,23100.0,13800.0,54
+PROD-0047,LG Portable Monitor,Computers,Monitors,LG,30200.0,19600.0,16
+PROD-0048,Samsung Portable Monitor,Computers,Monitors,Samsung,21900.0,15800.0,9
+PROD-0049,Samsung Portable Monitor Paperback,Computers,Monitors,Samsung,19000.0,12300.0,139
+PROD-0050,Samsung LED Monitor,Computers,Monitors,Samsung,42100.0,35300.0,67
+PROD-0051,LG Ultrawide Monitor,Computers,Monitors,LG,39000.0,17600.0,235
+PROD-0052,ViewSonic Curved Monitor,Computers,Monitors,ViewSonic,28000.0,21000.0,28
+PROD-0053,Samsung Gaming Monitor,Computers,Monitors,Samsung,55500.0,39400.0,135
+PROD-0054,Logitech UPS Backup,Computers,Accessories,Logitech,5850.0,3950.0,215
+PROD-0055,Corsair RAM Module,Computers,Accessories,Corsair,8850.0,7300.0,30
+PROD-0056,Corsair USB Hub,Computers,Accessories,Corsair,1650.0,850.0,10
+PROD-0057,Corsair USB Hub Paperback,Computers,Accessories,Corsair,1500.0,830.0,7
+PROD-0058,Logitech Mechanical Keyboard,Computers,Accessories,Logitech,1900.0,1350.0,39
+PROD-0059,Kingston Wi-Fi Adapter,Computers,Accessories,Kingston,13000.0,6450.0,10
+PROD-0060,Logitech RAM Module,Computers,Accessories,Logitech,2600.0,2000.0,572
+PROD-0061,TP-Link Wireless Mouse,Computers,Accessories,TP-Link,20100.0,17700.0,9
+PROD-0062,Anker Wireless Charging Pad,Mobile Accessories,Chargers,Anker,1250.0,730.0,6
+PROD-0063,Ugreen Charging Cable,Mobile Accessories,Chargers,Ugreen,360.0,220.0,525
+PROD-0064,Apple Fast Charger,Mobile Accessories,Chargers,Apple,1050.0,850.0,0
+PROD-0065,Baseus Fast Charger,Mobile Accessories,Chargers,Baseus,2350.0,1050.0,32
+PROD-0066,Baseus Car Charger,Mobile Accessories,Chargers,Baseus,900.0,680.0,23
+PROD-0067,Baseus Wireless Charging Pad,Mobile Accessories,Chargers,Baseus,6200.0,3150.0,41
+PROD-0068,Anker Power Bank Charger,Mobile Accessories,Chargers,Anker,560.0,310.0,11
+PROD-0069,Spigen Wallet Case,Mobile Accessories,Cases,Spigen,3200.0,1750.0,100
+PROD-0070,Xiaomi Rugged Case,Mobile Accessories,Cases,Xiaomi,1800.0,1350.0,39
+PROD-0071,UAG Rugged Case,Mobile Accessories,Cases,UAG,510.0,370.0,22
+PROD-0072,Xiaomi Clear Case,Mobile Accessories,Cases,Xiaomi,1000.0,690.0,82
+PROD-0073,Samsung Flip Cover,Mobile Accessories,Cases,Samsung,1050.0,630.0,57
+PROD-0074,Spigen Camera Protection Case,Mobile Accessories,Cases,Spigen,3600.0,2600.0,462
+PROD-0075,Spigen Flip Cover,Mobile Accessories,Cases,Spigen,890.0,590.0,15
+PROD-0076,Ringke Flip Cover,Mobile Accessories,Cases,Ringke,3300.0,1600.0,31
+PROD-0077,Apple In-Ear Headphones,Mobile Accessories,Earbuds,Apple,910.0,660.0,235
+PROD-0078,Samsung Neckband Earphones,Mobile Accessories,Earbuds,Samsung,4800.0,2350.0,284
+PROD-0079,Sony Gaming Earbuds,Mobile Accessories,Earbuds,Sony,12800.0,9700.0,5
+PROD-0080,Apple In-Ear Headphones Paperback,Mobile Accessories,Earbuds,Apple,4700.0,2800.0,38
+PROD-0081,Realme TWS Earbuds,Mobile Accessories,Earbuds,Realme,13000.0,6150.0,160
+PROD-0082,Apple In-Ear Headphones Hardcover,Mobile Accessories,Earbuds,Apple,970.0,660.0,266
+PROD-0083,Apple Sport Earbuds,Mobile Accessories,Earbuds,Apple,4050.0,3450.0,18
+PROD-0084,Xiaomi Solar Power Bank,Mobile Accessories,Power Banks,Xiaomi,1350.0,1050.0,160
+PROD-0085,Anker Power Bank 10000mAh,Mobile Accessories,Power Banks,Anker,1450.0,820.0,42
+PROD-0086,Romoss Power Bank 27000mAh,Mobile Accessories,Power Banks,Romoss,10200.0,8950.0,25
+PROD-0087,Romoss Solar Power Bank,Mobile Accessories,Power Banks,Romoss,9850.0,6700.0,12
+PROD-0088,Anker Laptop Power Bank,Mobile Accessories,Power Banks,Anker,11200.0,8650.0,7
+PROD-0089,Anker Solar Power Bank,Mobile Accessories,Power Banks,Anker,9950.0,7650.0,10
+PROD-0090,Anker Power Bank 10000mAh Paperback,Mobile Accessories,Power Banks,Anker,4900.0,2900.0,5
+PROD-0091,Romoss Solar Power Bank Paperback,Mobile Accessories,Power Banks,Romoss,6700.0,5250.0,46
+PROD-0092,Hisense French Door Refrigerator,Home Appliances,Refrigerators,Hisense,318500.0,253000.0,5
+PROD-0093,Haier Double Door Refrigerator,Home Appliances,Refrigerators,Haier,280000.0,215500.0,5
+PROD-0094,Gree Single Door Refrigerator,Home Appliances,Refrigerators,Gree,97500.0,59000.0,193
+PROD-0095,Gree French Door Refrigerator,Home Appliances,Refrigerators,Gree,135500.0,96500.0,11
+PROD-0096,Samsung Double Door Refrigerator,Home Appliances,Refrigerators,Samsung,110000.0,91500.0,58
+PROD-0097,Dawlance Single Door Refrigerator,Home Appliances,Refrigerators,Dawlance,293000.0,192000.0,13
+PROD-0098,Samsung French Door Refrigerator,Home Appliances,Refrigerators,Samsung,58000.0,29500.0,12
+PROD-0099,Samsung French Door Refrigerator Paperback,Home Appliances,Refrigerators,Samsung,141000.0,81000.0,6
+PROD-0100,Dawlance Twin Tub Washer,Home Appliances,Washing Machines,Dawlance,175000.0,113500.0,120
+PROD-0101,Dawlance Top Load Washer,Home Appliances,Washing Machines,Dawlance,36600.0,24000.0,151
+PROD-0102,LG Top Load Washer,Home Appliances,Washing Machines,LG,135500.0,83500.0,17
+PROD-0103,Dawlance Twin Tub Washer Paperback,Home Appliances,Washing Machines,Dawlance,81000.0,66000.0,154
+PROD-0104,Samsung Twin Tub Washer,Home Appliances,Washing Machines,Samsung,177000.0,93500.0,11
+PROD-0105,Toshiba Washer Dryer Combo,Home Appliances,Washing Machines,Toshiba,34500.0,23500.0,14
+PROD-0106,Toshiba Twin Tub Washer,Home Appliances,Washing Machines,Toshiba,65500.0,49700.0,41
+PROD-0107,Orient Portable AC,Home Appliances,Air Conditioners,Orient,278500.0,180500.0,38
+PROD-0108,Samsung Split AC,Home Appliances,Air Conditioners,Samsung,228000.0,102500.0,86
+PROD-0109,Gree Inverter AC,Home Appliances,Air Conditioners,Gree,136500.0,120000.0,385
+PROD-0110,Haier Inverter AC,Home Appliances,Air Conditioners,Haier,138000.0,94500.0,8
+PROD-0111,Orient Split AC,Home Appliances,Air Conditioners,Orient,91000.0,59500.0,134
+PROD-0112,Haier Inverter AC Paperback,Home Appliances,Air Conditioners,Haier,262500.0,133500.0,0
+PROD-0113,Daikin Window AC,Home Appliances,Air Conditioners,Daikin,66500.0,56000.0,32
+PROD-0114,Kenwood Electric Kettle,Home Appliances,Kitchen Appliances,Kenwood,8100.0,4950.0,587
+PROD-0115,Prestige Sandwich Maker,Home Appliances,Kitchen Appliances,Prestige,2950.0,2600.0,155
+PROD-0116,Inalsa Rice Cooker,Home Appliances,Kitchen Appliances,Inalsa,4600.0,2850.0,5
+PROD-0117,Ramtons Air Fryer,Home Appliances,Kitchen Appliances,Ramtons,23500.0,13400.0,544
+PROD-0118,Singer Electric Kettle,Home Appliances,Kitchen Appliances,Singer,9600.0,6050.0,14
+PROD-0119,Inalsa Blender,Home Appliances,Kitchen Appliances,Inalsa,21600.0,15700.0,55
+PROD-0120,Inalsa Blender Paperback,Home Appliances,Kitchen Appliances,Inalsa,11300.0,9100.0,10
+PROD-0121,Singer Food Processor,Home Appliances,Kitchen Appliances,Singer,1950.0,1350.0,555
+PROD-0122,Nike Denim Jeans,Fashion,Men's Clothing,Nike,16700.0,13000.0,55
+PROD-0123,Nike Denim Jeans Paperback,Fashion,Men's Clothing,Nike,10500.0,6500.0,9
+PROD-0124,Levi's Chino Trousers,Fashion,Men's Clothing,Levi's,17000.0,10000.0,322
+PROD-0125,Sapphire Jacket,Fashion,Men's Clothing,Sapphire,2900.0,1850.0,152
+PROD-0126,Tommy Hilfiger Denim Jeans,Fashion,Men's Clothing,Tommy Hilfiger,6350.0,2850.0,24
+PROD-0127,Gul Ahmed Jacket,Fashion,Men's Clothing,Gul Ahmed,2500.0,1750.0,121
+PROD-0128,Calvin Klein Hoodie,Fashion,Men's Clothing,Calvin Klein,8050.0,5200.0,340
+PROD-0129,Nike Kurta Shirt,Fashion,Men's Clothing,Nike,5350.0,3650.0,45
+PROD-0130,Zara Shawl,Fashion,Women's Clothing,Zara,7800.0,6100.0,5
+PROD-0131,Sana Safinaz Shawl,Fashion,Women's Clothing,Sana Safinaz,2800.0,1700.0,45
+PROD-0132,Zara Ready-to-Wear Dress,Fashion,Women's Clothing,Zara,4400.0,2650.0,11
+PROD-0133,Noor Ready-to-Wear Dress,Fashion,Women's Clothing,Noor,4450.0,2700.0,267
+PROD-0134,Sapphire Shawl,Fashion,Women's Clothing,Sapphire,1800.0,1250.0,35
+PROD-0135,Gul Ahmed Maxi Dress,Fashion,Women's Clothing,Gul Ahmed,6350.0,5050.0,14
+PROD-0136,Sana Safinaz Lawn Suit,Fashion,Women's Clothing,Sana Safinaz,2450.0,2100.0,9
+PROD-0137,Khaadi Ready-to-Wear Dress,Fashion,Women's Clothing,Khaadi,16600.0,13600.0,129
+PROD-0138,Nike Leather Boots,Fashion,Footwear,Nike,24800.0,17500.0,30
+PROD-0139,Bata Sneakers,Fashion,Footwear,Bata,11900.0,9300.0,90
+PROD-0140,Nike Sandals,Fashion,Footwear,Nike,4150.0,2750.0,19
+PROD-0141,Servis Sneakers,Fashion,Footwear,Servis,4650.0,2100.0,185
+PROD-0142,Bata Sports Shoes,Fashion,Footwear,Bata,3600.0,2950.0,237
+PROD-0143,Puma Loafers,Fashion,Footwear,Puma,14100.0,12400.0,55
+PROD-0144,Jordans Sandals,Fashion,Footwear,Jordans,5600.0,3600.0,33
+PROD-0145,Adidas Wallet,Fashion,Accessories,Adidas,1050.0,890.0,135
+PROD-0146,Nike Watch,Fashion,Accessories,Nike,640.0,490.0,89
+PROD-0147,Adidas Sunglasses,Fashion,Accessories,Adidas,670.0,450.0,331
+PROD-0148,Bags More Sunglasses,Fashion,Accessories,Bags More,1100.0,600.0,5
+PROD-0149,Bags More Watch,Fashion,Accessories,Bags More,4550.0,2400.0,50
+PROD-0150,Adidas Tie,Fashion,Accessories,Adidas,5300.0,2800.0,53
+PROD-0151,Fossil Watch,Fashion,Accessories,Fossil,2300.0,1500.0,130
+PROD-0152,Adidas Sunglasses Paperback,Fashion,Accessories,Adidas,740.0,430.0,506
+PROD-0153,The Ordinary Sunscreen,Beauty,Skincare,The Ordinary,2850.0,1950.0,18
+PROD-0154,Clean & Clear Face Wash,Beauty,Skincare,Clean & Clear,8500.0,6800.0,255
+PROD-0155,Neutrogena Face Wash,Beauty,Skincare,Neutrogena,5900.0,4600.0,38
+PROD-0156,Neutrogena Night Cream,Beauty,Skincare,Neutrogena,770.0,600.0,201
+PROD-0157,Garnier Face Mask,Beauty,Skincare,Garnier,920.0,610.0,7
+PROD-0158,Cetaphil Face Serum,Beauty,Skincare,Cetaphil,7050.0,4400.0,18
+PROD-0159,Garnier Face Wash,Beauty,Skincare,Garnier,4300.0,2000.0,0
+PROD-0160,The Ordinary Cleansing Oil,Beauty,Skincare,The Ordinary,3900.0,3400.0,229
+PROD-0161,Tresemme Conditioner,Beauty,Haircare,Tresemme,410.0,290.0,24
+PROD-0162,Gatsby Hair Mask,Beauty,Haircare,Gatsby,4650.0,2650.0,144
+PROD-0163,Head & Shoulders Conditioner,Beauty,Haircare,Head & Shoulders,1450.0,1100.0,118
+PROD-0164,L'Oreal Conditioner,Beauty,Haircare,L'Oreal,410.0,200.0,55
+PROD-0165,Tresemme Shampoo,Beauty,Haircare,Tresemme,5100.0,3800.0,482
+PROD-0166,Head & Shoulders Shampoo,Beauty,Haircare,Head & Shoulders,600.0,490.0,5
+PROD-0167,Gatsby Hair Dryer,Beauty,Haircare,Gatsby,4400.0,2900.0,38
+PROD-0168,Swiss Beauty Foundation,Beauty,Makeup,Swiss Beauty,8950.0,6400.0,31
+PROD-0169,Urban Decay Blush,Beauty,Makeup,Urban Decay,1400.0,960.0,11
+PROD-0170,Urban Decay Concealer,Beauty,Makeup,Urban Decay,3800.0,2800.0,98
+PROD-0171,MAC Lipstick,Beauty,Makeup,MAC,560.0,350.0,13
+PROD-0172,L'Oreal Lipstick,Beauty,Makeup,L'Oreal,2900.0,1500.0,0
+PROD-0173,MAC Makeup Brush Set,Beauty,Makeup,MAC,660.0,400.0,116
+PROD-0174,MAC Compact Powder,Beauty,Makeup,MAC,8350.0,5600.0,54
+PROD-0175,Huda Beauty Blush,Beauty,Makeup,Huda Beauty,610.0,420.0,0
+PROD-0176,L'Oreal Musk Spray,Beauty,Fragrances,L'Oreal,3450.0,2300.0,207
+PROD-0177,Al Haramain Eau de Parfum,Beauty,Fragrances,Al Haramain,2050.0,1700.0,77
+PROD-0178,Gul Ahmed Musk Spray,Beauty,Fragrances,Gul Ahmed,2000.0,1350.0,43
+PROD-0179,Sabah Body Spray,Beauty,Fragrances,Sabah,6750.0,3050.0,139
+PROD-0180,Al Haramain Eau de Toilette,Beauty,Fragrances,Al Haramain,2150.0,1650.0,219
+PROD-0181,Javerian Eau de Toilette,Beauty,Fragrances,Javerian,1350.0,1150.0,590
+PROD-0182,Sabah Attar,Beauty,Fragrances,Sabah,6050.0,3300.0,0
+PROD-0183,Sabah Perfume Gift Set,Beauty,Fragrances,Sabah,7900.0,6300.0,24
+PROD-0184,PowerGym Weight Bench,Sports,Fitness Equipment,PowerGym,5550.0,4050.0,0
+PROD-0185,FitZone Weight Bench,Sports,Fitness Equipment,FitZone,48200.0,36100.0,51
+PROD-0186,Decathlon Kettlebell,Sports,Fitness Equipment,Decathlon,55000.0,44700.0,57
+PROD-0187,Decathlon Weight Bench,Sports,Fitness Equipment,Decathlon,8450.0,7450.0,197
+PROD-0188,PowerGym Adjustable Dumbbell,Sports,Fitness Equipment,PowerGym,30100.0,24300.0,5
+PROD-0189,FitZone Adjustable Dumbbell,Sports,Fitness Equipment,FitZone,6100.0,4700.0,50
+PROD-0190,Decathlon Treadmill,Sports,Fitness Equipment,Decathlon,3300.0,2350.0,8
+PROD-0191,Decathlon Yoga Mat,Sports,Fitness Equipment,Decathlon,3300.0,2900.0,7
+PROD-0192,Puma Basketball,Sports,Team Sports,Puma,8300.0,4350.0,11
+PROD-0193,SG Cricket Bat,Sports,Team Sports,SG,1100.0,710.0,228
+PROD-0194,Molten Badminton Racket,Sports,Team Sports,Molten,11200.0,7150.0,13
+PROD-0195,Cosco Cricket Ball,Sports,Team Sports,Cosco,3700.0,3050.0,599
+PROD-0196,Nivia Cricket Ball,Sports,Team Sports,Nivia,4650.0,3250.0,26
+PROD-0197,Cosco Table Tennis Bat,Sports,Team Sports,Cosco,2300.0,1800.0,6
+PROD-0198,SG Badminton Racket,Sports,Team Sports,SG,10200.0,6350.0,31
+PROD-0199,Cosco Volleyball,Sports,Team Sports,Cosco,1550.0,1350.0,141
+PROD-0200,Decathlon Water Bottle,Sports,Outdoor,Decathlon,6150.0,3550.0,24
+PROD-0201,Lowe Alpine Trekking Backpack,Sports,Outdoor,Lowe Alpine,34100.0,24800.0,7
+PROD-0202,Coleman Hammock,Sports,Outdoor,Coleman,19500.0,13900.0,10
+PROD-0203,Decathlon Trekking Backpack,Sports,Outdoor,Decathlon,1200.0,730.0,42
+PROD-0204,Coleman Sleeping Bag,Sports,Outdoor,Coleman,2000.0,1750.0,106
+PROD-0205,Lowe Alpine Sleeping Bag,Sports,Outdoor,Lowe Alpine,4300.0,2500.0,256
+PROD-0206,Decathlon Camping Tent,Sports,Outdoor,Decathlon,3450.0,2600.0,132
+PROD-0207,Under Armour Sports Jacket,Sports,Sportswear,Under Armour,1500.0,800.0,77
+PROD-0208,Adidas Jersey,Sports,Sportswear,Adidas,4100.0,3350.0,484
+PROD-0209,Adidas Sports T-Shirt,Sports,Sportswear,Adidas,4950.0,4100.0,312
+PROD-0210,Puma Sports Jacket,Sports,Sportswear,Puma,2950.0,2100.0,10
+PROD-0211,Reebok Compression Shirt,Sports,Sportswear,Reebok,4350.0,2450.0,21
+PROD-0212,Under Armour Training Shorts,Sports,Sportswear,Under Armour,7700.0,5450.0,46
+PROD-0213,Reebok Sports Jacket,Sports,Sportswear,Reebok,3650.0,2600.0,6
+PROD-0214,The Broken Promise,Books,Fiction,Random House,1100.0,700.0,547
+PROD-0215,The Last Garden,Books,Fiction,Rupa,1150.0,860.0,262
+PROD-0216,Beyond the Bridge,Books,Fiction,Hachette,380.0,240.0,555
+PROD-0217,Whispers in the Valley,Books,Fiction,Random House,2350.0,1900.0,6
+PROD-0218,Sands of Time,Books,Fiction,HarperCollins,1150.0,700.0,375
+PROD-0219,The Silver Path,Books,Fiction,Random House,730.0,450.0,22
+PROD-0220,Whispers in the Valley Paperback,Books,Fiction,Rupa,980.0,660.0,74
+PROD-0221,Healthy Living Blueprint,Books,Non-Fiction,Rupa,420.0,310.0,20
+PROD-0222,A Practical Guide to Personal Finance,Books,Non-Fiction,HarperCollins,830.0,660.0,449
+PROD-0223,Healthy Living Blueprint Paperback,Books,Non-Fiction,HarperCollins,410.0,280.0,216
+PROD-0224,Mastering Time Management,Books,Non-Fiction,Ilm Kitab,2350.0,1750.0,13
+PROD-0225,Habits of High Achievers,Books,Non-Fiction,Juggernaut,470.0,280.0,134
+PROD-0226,The Discipline of Focus,Books,Non-Fiction,WordPress,2100.0,1850.0,136
+PROD-0227,Understanding Modern Economics,Books,Non-Fiction,Juggernaut,370.0,290.0,12
+PROD-0228,Discrete Mathematics,Books,Academic,Cambridge Pakistan,2650.0,1850.0,171
+PROD-0229,Biology Grade 10,Books,Academic,Ilm Kitab,1300.0,980.0,578
+PROD-0230,Computer Science Algorithms,Books,Academic,Ilm Kitab,4350.0,3400.0,222
+PROD-0231,Discrete Mathematics Paperback,Books,Academic,National Book Foundation,4500.0,3250.0,277
+PROD-0232,Organic Chemistry Essentials,Books,Academic,Cambridge Pakistan,630.0,330.0,23
+PROD-0233,Physics Grade 11,Books,Academic,National Book Foundation,1200.0,590.0,35
+PROD-0234,Organic Chemistry Essentials Paperback,Books,Academic,Uswa,4350.0,3400.0,0
+PROD-0235,Fairy Tales for Boys,Books,Children,Little Book House,270.0,210.0,344
+PROD-0236,My First Activity Book,Books,Children,Uswa,420.0,370.0,7
+PROD-0237,My First Activity Book Paperback,Books,Children,Ilm Kitab,1250.0,560.0,11
+PROD-0238,Science Facts for Kids,Books,Children,Ilm Kitab,900.0,620.0,281
+PROD-0239,Animal Friends,Books,Children,National Book Foundation,460.0,290.0,42
+PROD-0240,The Adventures of Bilal,Books,Children,Ilm Kitab,480.0,300.0,6
+PROD-0241,My First Activity Book Hardcover,Books,Children,Ilm Kitab,2400.0,1550.0,21
+PROD-0242,National Instant Coffee Jar,Grocery,Tea & Coffee,National,320.0,240.0,347
+PROD-0243,Kashmiri Chai Tea 250g,Grocery,Tea & Coffee,Kashmiri Chai,250.0,170.0,76
+PROD-0244,Maxwell House Coffee Beans 500g,Grocery,Tea & Coffee,Maxwell House,410.0,300.0,106
+PROD-0245,Maxwell House Instant Coffee Jar,Grocery,Tea & Coffee,Maxwell House,520.0,400.0,0
+PROD-0246,Lipton Instant Coffee Jar,Grocery,Tea & Coffee,Lipton,580.0,310.0,31
+PROD-0247,National Tea 250g,Grocery,Tea & Coffee,National,400.0,250.0,31
+PROD-0248,Lipton Coffee Beans 500g,Grocery,Tea & Coffee,Lipton,3200.0,2350.0,21
+PROD-0249,Kashmiri Chai Green Tea,Grocery,Tea & Coffee,Kashmiri Chai,340.0,150.0,81
+PROD-0250,Bisconni Wafer,Grocery,Snacks,Bisconni,260.0,220.0,15
+PROD-0251,Continental Chocolatto,Grocery,Snacks,Continental,1500.0,1250.0,83
+PROD-0252,EBM Peanut Pack,Grocery,Snacks,EBM,780.0,560.0,11
+PROD-0253,Rupali Cookies,Grocery,Snacks,Rupali,710.0,420.0,180
+PROD-0254,Super Crisp Chocolate Bar,Grocery,Snacks,Super Crisp,410.0,280.0,412
+PROD-0255,Bisconni Chocolatto,Grocery,Snacks,Bisconni,1350.0,950.0,68
+PROD-0256,Peanuts Chocolate Bar,Grocery,Snacks,Peanuts,560.0,390.0,101
+PROD-0257,GoodMilk Yogurt,Grocery,Dairy,GoodMilk,370.0,290.0,14
+PROD-0258,Meadow Gold Butter,Grocery,Dairy,Meadow Gold,2700.0,2000.0,42
+PROD-0259,Olper's Cheese Slice,Grocery,Dairy,Olper's,2650.0,1450.0,11
+PROD-0260,GoodMilk Lassi,Grocery,Dairy,GoodMilk,530.0,420.0,277
+PROD-0261,Meadow Gold Cream,Grocery,Dairy,Meadow Gold,360.0,320.0,9
+PROD-0262,Nestle Milkpak Yogurt,Grocery,Dairy,Nestle Milkpak,930.0,690.0,8
+PROD-0263,Meadow Gold Cheese Block,Grocery,Dairy,Meadow Gold,2200.0,1200.0,569
+PROD-0264,Unilever Ghee 1kg,Grocery,Staples,Unilever,670.0,440.0,5
+PROD-0265,Dalda Basmati Rice 5kg,Grocery,Staples,Dalda,1200.0,720.0,27
+PROD-0266,Unilever Basmati Rice 5kg,Grocery,Staples,Unilever,300.0,240.0,10
+PROD-0267,Dalda Basmati Rice 5kg Paperback,Grocery,Staples,Dalda,2550.0,2000.0,585
+PROD-0268,Dalda Basmati Rice 5kg Hardcover,Grocery,Staples,Dalda,2200.0,1600.0,17
+PROD-0269,Dalda Red Chilli Powder,Grocery,Staples,Dalda,170.0,130.0,26
+PROD-0270,Unilever Turmeric Powder,Grocery,Staples,Unilever,860.0,600.0,0
+PROD-0271,Prestige Casserole Set,Home & Kitchen,Cookware,Prestige,4750.0,3950.0,11
+PROD-0272,Pigeon Milk Pan,Home & Kitchen,Cookware,Pigeon,15700.0,13200.0,6
+PROD-0273,Rachael Ray Cookware Set,Home & Kitchen,Cookware,Rachael Ray,2000.0,1250.0,101
+PROD-0274,Prestige Casserole Set Paperback,Home & Kitchen,Cookware,Prestige,13600.0,10500.0,13
+PROD-0275,Tefal Cookware Set,Home & Kitchen,Cookware,Tefal,13900.0,12200.0,240
+PROD-0276,Prestige Milk Pan,Home & Kitchen,Cookware,Prestige,3450.0,2200.0,14
+PROD-0277,Prestige Grill Pan,Home & Kitchen,Cookware,Prestige,1600.0,790.0,39
+PROD-0278,Interwood Dining Table,Home & Kitchen,Furniture,Interwood,56000.0,29200.0,249
+PROD-0279,Interwood Office Chair,Home & Kitchen,Furniture,Interwood,11900.0,9800.0,495
+PROD-0280,Metro Dining Table,Home & Kitchen,Furniture,Metro,44300.0,31500.0,440
+PROD-0281,Metro Bed,Home & Kitchen,Furniture,Metro,74000.0,48200.0,13
+PROD-0282,Eureka Office Chair,Home & Kitchen,Furniture,Eureka,43200.0,29300.0,82
+PROD-0283,Galaxy Dining Table,Home & Kitchen,Furniture,Galaxy,4700.0,3500.0,286
+PROD-0284,Sapphire Bookshelf,Home & Kitchen,Furniture,Sapphire,5550.0,4150.0,24
+PROD-0285,Felix Coffee Table,Home & Kitchen,Furniture,Felix,9950.0,5700.0,5
+PROD-0286,Clovia Pillow Pack,Home & Kitchen,Bedding,Clovia,3050.0,1500.0,21
+PROD-0287,Sapphire Bed Sheet Set,Home & Kitchen,Bedding,Sapphire,1550.0,830.0,15
+PROD-0288,Sapphire Blanket,Home & Kitchen,Bedding,Sapphire,11800.0,8750.0,41
+PROD-0289,Clovia Comforter Set,Home & Kitchen,Bedding,Clovia,2000.0,1450.0,105
+PROD-0290,Clovia Duvet Cover,Home & Kitchen,Bedding,Clovia,7150.0,4250.0,26
+PROD-0291,SleepWell Duvet Cover,Home & Kitchen,Bedding,SleepWell,3250.0,1900.0,482
+PROD-0292,Clovia Mattress,Home & Kitchen,Bedding,Clovia,3500.0,1850.0,0
+PROD-0293,Sapphire Pillow Pack,Home & Kitchen,Bedding,Sapphire,1900.0,1300.0,13
+PROD-0294,Pottery Studio Flower Vase,Home & Kitchen,Decor,Pottery Studio,2850.0,1850.0,81
+PROD-0295,Home Decor Centre Table Lamp,Home & Kitchen,Decor,Home Decor Centre,2500.0,1400.0,225
+PROD-0296,WoodNest Table Lamp,Home & Kitchen,Decor,WoodNest,5900.0,4200.0,28
+PROD-0297,Artisan Wall Art,Home & Kitchen,Decor,Artisan,2750.0,2350.0,10
+PROD-0298,Pottery Studio Area Rug,Home & Kitchen,Decor,Pottery Studio,12200.0,6850.0,27
+PROD-0299,Home Living Shelf Decor,Home & Kitchen,Decor,Home Living,14800.0,8100.0,0
+PROD-0300,IKEA Cushion Covers,Home & Kitchen,Decor,IKEA,5900.0,3750.0,5

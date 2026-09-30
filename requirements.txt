@@ -1,0 +1,37 @@
+# Phase 1 - generate and validate the dataset
+# Phase 2 - exploratory analysis notebook
+# Phases 4 and 5 - the interactive Streamlit dashboard and its design system
+#
+# Install everything with:
+#   pip install -r requirements.txt
+#
+# Versions below are the floors the code needs and the ceilings that avoid a
+# breaking major release. The exact versions this project was built and tested
+# against are noted in the comment beside each one.
+
+# --- Data work (Phases 1, 2, and the dashboard's tabular layer) ---
+# tested with pandas 3.0.6 / numpy 2.5.3 / matplotlib 3.11.2
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+
+# --- Phases 4 and 5: the interactive dashboard ---
+# Streamlit provides the app runtime, the sidebar widgets and the result cache.
+# The floor is 1.64 because the dashboard uses the current `width=` parameter
+# (st.dataframe / st.plotly_chart); the older `use_container_width` is removed
+# in Streamlit 2. Tested with 1.64.0.
+streamlit>=1.64,<2.0
+# Plotly renders every figure. Hover tooltips, zoom and legend toggling all
+# come from it. Tested with 7.1.0.
+plotly>=5.20,<8.0
+# Pure-Python MySQL driver - no C compiler or build tools, which matters on
+# Windows. Tested with 1.2.3.
+PyMySQL>=1.1,<2.0
+# Loads a local .env file so credentials never sit in the source code.
+# Tested with 1.2.3.
+python-dotenv>=1.0,<2.0
+
+# Jupyter is needed to open and run notebooks/01_initial_exploration.ipynb.
+# It is an environment tool rather than a project dependency, so it is
+# optional:
+#   pip install jupyterlab
